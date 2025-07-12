@@ -63,46 +63,4 @@ CREATE TABLE zepto (
   quantity INTEGER
 );
 
-🔍 Data Exploration
-Counted total records and sampled data
 
-Checked for null values and missing data
-
-Explored product categories
-
-Compared in-stock vs out-of-stock products
-
-Identified duplicate product names representing multiple SKUs
-
-🧹 Data Cleaning
-Removed rows where MRP or discountedSellingPrice = 0
-
-Converted mrp and discountedSellingPrice from paise to ₹
-
-📊 Business Insights Using SQL
-🏆 Top 10 best-value products based on highest discount percent
-
-🚫 High-MRP products currently out of stock
-
-💰 Estimated potential revenue per product category
-
-⚠️ Expensive products (MRP > ₹500) with low discounts
-
-🏷️ Top 5 categories with highest average discounts
-
-⚖️ Calculated price per gram to identify value-for-money products
-
-📦 Grouped products by weight into Low, Medium, and Bulk
-
-🏋️‍♂️ Total inventory weight calculated per category
-
-📌 Takeaways
-This project showcases:
-
-Advanced SQL querying skills
-
-Realistic e-commerce data handling
-
-Business-relevant insight generation
-
-Clean data modeling and reporting
